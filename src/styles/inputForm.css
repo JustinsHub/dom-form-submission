@@ -1,0 +1,38 @@
+.input_form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input__form {
+  border: 0.1rem solid black;
+  padding: 1rem;
+}
+
+.input__form-username {
+  border-radius: 0.4rem;
+  border: 0.1rem solid;
+  padding: 0.5rem;
+  margin-top: 0.8rem;
+}
+
+.input__form-password {
+  border-radius: 0.4rem;
+  border: 0.1rem solid;
+  padding: 0.5rem;
+  margin-top: 0.8rem;
+}
+
+.input__form-btn-container {
+  display: flex;
+  justify-content: end;
+}
+.input__form-btn {
+  font-size: 0.8rem;
+  color: white;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin-top: 0.8rem;
+  border-radius: 1rem;
+  background-color: cornflowerblue;
+  border: none;
+}
